@@ -1,1 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>My First Web Page</title>
+  </head>
+  <hr /> 
+  <body>
+    <h1>Hello World</h1>
+    <h2>A place that I would like to visit</h2>
+    <p>I would like to go to China or Japan. I chose these two because I want to see the great wall and the mountains in Japan and visit tokyo</P>
+    <h2>A person I admire <br />(past or present) 
+      </h2>
+    <p>I admire Sean or as many people call him Jacksepticeye. He is a funny youtuber that does video games for his job. 
+      He is for a little bit a of a more mature audience but is very funny. He is up beat and happy in all of his videos and it makes you
+      happy. His Irish accent is also fun to listen to.</p>
+    <h2>
+      <p>My favorite Fruits</p> 
+      <ul>
+        <li>Watermelon</li>
+        <li>Apples</li>
+        <li>pineapple</li>
+        <li>bannanas</li>
+        <li>canteloupe</li>
+     </ul>
+     <p>Favorite Presidents</p>
+      <ol>
+        <li>George Washington</li>
+        <li>Abraham Lincoln</li>
+        <li>Ronald Reagan</li>
+        <li>John F. Kennedy</li>
+     </ol>
+  </body>
+
+</html>
 
