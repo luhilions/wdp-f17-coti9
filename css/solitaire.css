@@ -16,6 +16,31 @@
   top: 25px;
   left: 25px;
 }
+
+.gradient {
+background-image: url('../img/gradient.jpg'); background-repeat: repeat-x; background-color: gray;
+}
+
+.back {
+position: absolute; top: 40px;
+left: 110px; z-index: 1;
+}
+.back {
+position: absolute; top: 40px;
+left: 110px; z-index: 2;
+}
+.back {
+position: absolute; top: 40px;
+left: 110px; z-index: 3;
+}
+.back {
+position: absolute; top: 40px;
+left: 110px; z-index: 4;
+}
+.back {
+position: absolute; top: 40px;
+left: 110px; z-index: 5;
+}
   </body>
 
 </html>
