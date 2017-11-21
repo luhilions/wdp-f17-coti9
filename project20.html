@@ -6,30 +6,52 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Web Form</title>
   </head>
-   <form class="feedback">
-   
-<shteyleet:type="text/css"> #headline {
+  
+  <shteyleet:type="text/css"> #headline {
     text-align: center;
   }
   .summary {
-    font-style: italic;
+    font-family:Tahoma;
 } 
    .textbox {
   width: 500px;
   height: 480px;
   margin: 0px auto;
+  border
+   .example { background-color: ; color: ;
+}  
 </style>
   
+  
+  
+  
+   <form class="feedback">
+  
   <body>
-    <form method="post" action="process.php">
+  <form method="post" action="process.php">
+Full Name: <input type="text" size="20" name="fullname" /><br /> 
 <fieldset>
-<legend>Quater:<br />
-  <select name="quarter">
+ 
+Year:<br />
+<input type="radio" name="year" value="freshmen" />Freshman<br /> <input type="radio" name="year" value="sophmore" />Sophmore<br /> <input type="radio" name="year" value="junior" />Junior<br /> <input type="radio" name="year" value="senior" />Senior<br />
+     
+  <fieldset>
+   
+Activities:<br />
+<input type="checkbox" name="activities" value="sports" />Sports<br />
+<input type="checkbox" name="activities" value="music" />Music<br />
+<input type="checkbox" name="activities" value="theater" />Theater<br /> 
+<input type="checkbox" name="activities" value="other" />Other<br />
+
+    <legend>Quater:<br />
+ <select name="quarter">
 <option value="spring">Spring</option> <option value="summer">Summer</option> <option value="fall">Fall</option> <option value="winter">Winter</option>
 </select>
-</legend> ...
-
-</fieldset>
+</legend>
+    
+    Comments:<br /> <textarea name="more" rows="8" cols="30"> Enter your feedback here.
+     ...
+</textarea><br />
+<input type="submit" value="Click here to submit" />
 </form>
-
-  </body>
+    </body>
